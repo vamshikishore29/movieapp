@@ -1,0 +1,24 @@
+.search {
+  border: 1px solid white;
+  border-right: 0px;
+  padding-left: 10px;
+  color: white;
+  text-decoration: none;
+  width: 150px;
+}
+.search-icon1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.search-btn {
+  padding: 0px;
+  background-color: grey;
+  border: 1px solid white;
+  border-left: 0px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .search {
+    width: 250px;
+  }
+}

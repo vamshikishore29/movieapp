@@ -1,0 +1,108 @@
+.login-container {
+  background-color: #131313;
+  padding: 30px;
+  height: 100vh;
+}
+.login-form-container {
+  color: white;
+  margin-top: 130px;
+}
+.form-heading {
+  text-align: left;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+/* .acc {
+  display: none;
+} */
+
+.label {
+  font-size: 16px;
+}
+
+.input {
+  height: 40px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #333333;
+  border-radius: 3px;
+  border: 0px;
+  color: white;
+}
+.login-btn {
+  background-color: red;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.error {
+  color: red;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-container {
+    background-image: url('https://res.cloudinary.com/dz6z23sht/image/upload/v1654670865/Movies%20App/netfilx_1_ejfhey.png');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-img {
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 180px;
+    height: 52px;
+  }
+
+  .login-form-container {
+    color: white;
+    width: 306px;
+    height: 340px;
+    align-self: center;
+    margin-top: 200px;
+    padding: 20px;
+    opacity: 80%;
+    background-color: #0c0b10;
+  }
+  .form-heading {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .label {
+    font-size: 12px;
+  }
+
+  .input {
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #333333;
+    border-radius: 3px;
+    border: 0px;
+    color: white;
+  }
+  .login-btn {
+    background-color: red;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .error {
+    font-size: 12px;
+    width: 205px;
+  }
+}

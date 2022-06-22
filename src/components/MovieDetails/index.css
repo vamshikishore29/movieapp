@@ -1,0 +1,74 @@
+.runtime {
+  position: absolute;
+  top: 165px;
+  color: white;
+  left: 50px;
+}
+.overview {
+  position: absolute;
+  top: 190px;
+  color: white;
+  left: 50px;
+}
+.sensor {
+  height: 22px;
+  width: 55px;
+
+  padding: 2px;
+  border: 1px solid white;
+  margin-left: 10px;
+}
+ul {
+  color: white;
+  list-style-type: none;
+}
+
+.details-heading {
+  color: #64748b;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.movie-details-con {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+.genre-con {
+  margin: 20px;
+}
+.list-con {
+  padding-left: 0px;
+}
+.details {
+  color: white;
+}
+.similar-movies-container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.similar-movies-heading {
+  color: white;
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.product-details-error-view-container {
+  height: 100vh;
+  margin: 0px;
+  padding-top: 0px;
+}
+.movie-details-container {
+  background-color: #181818;
+  min-height: 100vh;
+}

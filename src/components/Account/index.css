@@ -1,0 +1,47 @@
+.account-container {
+  height: 100vh;
+  background-color: #181818;
+}
+
+.account-details {
+  background-color: white;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+}
+.acc-heading {
+  text-align: left;
+}
+.hr-line {
+  color: grey;
+  height: 1px;
+  width: 100%;
+}
+.member {
+  color: grey;
+
+  margin-right: 20px;
+}
+.user-details {
+  display: flex;
+}
+.ultra {
+  border: 1px solid black;
+}
+.premium {
+  padding-left: 12px;
+}
+
+.logout-con {
+  text-align: center;
+}
+.logout-btn {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 89px;
+  border: 0px;
+  cursor: pointer;
+}

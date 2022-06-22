@@ -1,0 +1,19 @@
+.slider-img {
+  height: 64px;
+  width: 90px;
+
+  border-radius: 8px;
+}
+
+.slider-img-container {
+  margin: 20px;
+}
+@media screen and (min-width: 768px) {
+  .slider-img {
+    height: 170px;
+    width: 254px;
+    left: 166px;
+    top: 708px;
+    border-radius: 8px;
+  }
+}

@@ -1,0 +1,165 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  padding: 20px;
+  background: black;
+  opacity: 0.8;
+}
+.movie-img-container {
+  height: 27px;
+  width: 100px;
+  left: 32px;
+  top: 24px;
+  border-radius: 0px;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.home-logo-img {
+  width: 100%;
+
+  border-radius: 0px;
+}
+
+.header-link-container {
+  display: none;
+}
+
+.profile-img {
+  display: none;
+}
+
+.search-icon {
+  color: white;
+  height: 24px;
+  width: 24px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+
+  margin-right: 30px;
+  align-self: center;
+  margin-top: 8px;
+}
+.icon-profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.search-container {
+  padding-top: 0px;
+
+  margin-top: 0px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  background-color: transparent;
+  border: 0px;
+}
+.search {
+  height: 35px;
+  width: 95%;
+  background: transparent;
+  color: white;
+  border-right: 0px;
+}
+.search-icon {
+  width: 30px;
+  height: 32px;
+  padding: 3px;
+  margin-right: 0px;
+  margin-bottom: 8px;
+}
+.saved-icon-btn {
+  background-color: transparent;
+  border: 0px;
+}
+.sm-list-con {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  background: black;
+  opacity: 0.8;
+  margin-top: 0px;
+  height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .lg-nav-link-con {
+    display: flex;
+  }
+  .sm-list-con {
+    display: none;
+  }
+  .search-container {
+    padding-top: 0px;
+
+    margin-top: 0px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+  }
+  .search {
+    height: 35px;
+    width: 95%;
+    background: transparent;
+    color: white;
+    border-right: 0px;
+  }
+  .search-icon {
+    width: 30px;
+    height: 32px;
+    padding: 3px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+  }
+  .movie-img-container {
+    height: 39px;
+    width: 135.00051879882812px;
+    left: 165px;
+    top: 32px;
+    border-radius: 0px;
+  }
+  .home-logo-img {
+    width: 100%;
+  }
+
+  .header-link-container {
+    display: block;
+    color: white;
+    display: flex;
+    margin-left: 40px;
+    align-self: center;
+  }
+  .header-link {
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .profile-img {
+    display: block;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 48px;
+    margin-top: 0px;
+    align-self: center;
+  }
+  .saved-icon {
+    display: none;
+  }
+}
